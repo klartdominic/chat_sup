@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "chat_support",
   "displayName": "chat_support"
+=======
+  "name": "chat_support2",
+  "displayName": "chat_support2"
+>>>>>>> 8d430351ff2389a17de6c1775ede628b330d5ac7
 }

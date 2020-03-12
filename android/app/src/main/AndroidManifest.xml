@@ -1,5 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
   package="com.chat_support">
+=======
+  package="com.chat_support2">
+>>>>>>> 8d430351ff2389a17de6c1775ede628b330d5ac7
 
     <uses-permission android:name="android.permission.INTERNET" />
 

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 rootProject.name = 'chat_support'
+=======
+rootProject.name = 'chat_support2'
+>>>>>>> 8d430351ff2389a17de6c1775ede628b330d5ac7
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'

@@ -1,8 +1,13 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
+<<<<<<< HEAD
 target 'chat_support' do
   # Pods for chat_support
+=======
+target 'chat_support2' do
+  # Pods for chat_support2
+>>>>>>> 8d430351ff2389a17de6c1775ede628b330d5ac7
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +39,11 @@ target 'chat_support' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+<<<<<<< HEAD
   target 'chat_supportTests' do
+=======
+  target 'chat_support2Tests' do
+>>>>>>> 8d430351ff2389a17de6c1775ede628b330d5ac7
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,10 +51,17 @@ target 'chat_support' do
   use_native_modules!
 end
 
+<<<<<<< HEAD
 target 'chat_support-tvOS' do
   # Pods for chat_support-tvOS
 
   target 'chat_support-tvOSTests' do
+=======
+target 'chat_support2-tvOS' do
+  # Pods for chat_support2-tvOS
+
+  target 'chat_support2-tvOSTests' do
+>>>>>>> 8d430351ff2389a17de6c1775ede628b330d5ac7
     inherit! :search_paths
     # Pods for testing
   end
