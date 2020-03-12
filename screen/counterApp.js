@@ -26,14 +26,8 @@ class CounterApp extends Component {
 }
 
 function mapStateToProps(state) {
-<<<<<<< HEAD
-  console.log(state);
-  return {
-    counter: state.counterApp.counter,
-=======
   return {
     counter: state.counter,
->>>>>>> 8d430351ff2389a17de6c1775ede628b330d5ac7
   };
 }
 

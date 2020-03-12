@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "chat_support",
-=======
-  "name": "chat_support2",
->>>>>>> 8d430351ff2389a17de6c1775ede628b330d5ac7
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -18,16 +14,11 @@
     "react": "16.9.0",
     "react-native": "^0.61.5",
     "react-native-cli": "^2.0.1",
-<<<<<<< HEAD
-    "react-redux": "^7.2.0",
-    "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-=======
     "react-native-gesture-handler": "^1.6.0",
     "react-navigation": "^4.1.1",
     "react-redux": "^7.2.0",
     "redux": "^4.0.5",
->>>>>>> 8d430351ff2389a17de6c1775ede628b330d5ac7
     "sendbird": "^3.0.117"
   },
   "devDependencies": {
@@ -42,5 +33,11 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
   }
 }

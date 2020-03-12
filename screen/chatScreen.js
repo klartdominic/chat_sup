@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {
   StyleSheet,
   Text,
@@ -14,7 +14,7 @@ import SendBird from 'sendbird';
 
 console.disableYellowBox = true;
 
-const sb = new SendBird({appId: 'E033AE2D-E8CA-480D-AFA2-D17B17287C9D'});
+const sb = new SendBird({ appId: 'E033AE2D-E8CA-480D-AFA2-D17B17287C9D' });
 const myUserId = '1';
 const friendUserId = 'example@gmail.com';
 
@@ -29,7 +29,7 @@ class ChatScreen extends Component {
     super(props);
     this.createGroupChannel = this.createGroupChannel.bind(this);
     this.sendMessage = this.sendMessage.bind(this);
-    this.state = {text: '', messages: []};
+    this.state = { text: '', messages: [] };
   }
 
   componentDidMount() {
@@ -42,7 +42,7 @@ class ChatScreen extends Component {
           messages.push(message);
           const newMessages = messages.concat(this.state.messages);
           console.log('test', this.state.messages, newMessages);
-          this.setState({messages: newMessages});
+          this.setState({ messages: newMessages });
           if (channel.channelType == 'group') {
             channel.markAsRead();
           }
@@ -102,7 +102,7 @@ class ChatScreen extends Component {
         return;
       }
       const messages = [].concat([message]).concat(this.state.messages);
-      this.setState({text: '', messages});
+      this.setState({ text: '', messages });
     });
   }
 
@@ -128,7 +128,7 @@ class ChatScreen extends Component {
         }
 
         const newMessageList = this.state.messages.concat(messages.reverse());
-        this.setState({messages: newMessageList});
+        this.setState({ messages: newMessageList });
       });
     }
   }
@@ -137,12 +137,12 @@ class ChatScreen extends Component {
     const createdAt = moment(msg.createdAt).format('H:mm');
     if (msg._sender.userId === myUserId) {
       return (
-        <View style={[styles.messageContainer, {paddingLeft: 50}]}>
-          <View style={{justifyContent: 'flex-end'}}>
+        <View style={[styles.messageContainer, { paddingLeft: 50 }]}>
+          <View style={{ justifyContent: 'flex-end' }}>
             <Text style={styles.createdAt}>{createdAt}</Text>
           </View>
-          <View style={[styles.messageBody, {backgroundColor: themeColor}]}>
-            <Text style={{color: 'white'}}>{msg.message}</Text>
+          <View style={[styles.messageBody, { backgroundColor: themeColor }]}>
+            <Text style={{ color: 'white' }}>{msg.message}</Text>
           </View>
           {/* <Image
             source={{uri: msg._sender.profileUrl}}
@@ -152,15 +152,15 @@ class ChatScreen extends Component {
       );
     }
     return (
-      <View style={[styles.messageContainer, {paddingRight: 50}]}>
+      <View style={[styles.messageContainer, { paddingRight: 50 }]}>
         {/* <Image
           source={{uri: msg._sender.profileUrl}}
           style={[styles.profile, {marginRight: 10}]}
         /> */}
-        <View style={[styles.messageBody, {backgroundColor: '#efefef'}]}>
-          <Text style={{color: 'black'}}>{msg.message}</Text>
+        <View style={[styles.messageBody, { backgroundColor: '#efefef' }]}>
+          <Text style={{ color: 'black' }}>{msg.message}</Text>
         </View>
-        <View style={{justifyContent: 'flex-end'}}>
+        <View style={{ justifyContent: 'flex-end' }}>
           <Text style={styles.createdAt}>{createdAt}</Text>
         </View>
       </View>
@@ -169,7 +169,7 @@ class ChatScreen extends Component {
 
   render() {
     return (
-      <View style={{flex: 1}}>
+      <View style={{ flex: 1 }}>
         <View style={styles.header}>
           <Text style={styles.headerText}>{friendUserId}</Text>
         </View>
@@ -177,20 +177,21 @@ class ChatScreen extends Component {
           inverted
           onEndReached={() => this.getChannelMessage(false)}
           data={this.state.messages}
-          renderItem={({item}) => this.renderMessage(item)}
-          style={{flex: 1}}
+          renderItem={({ item }) => this.renderMessage(item)}
+          style={{ flex: 1 }}
         />
-        <View style={{flexDirection: 'row'}}>
+        <View style={{ flexDirection: 'row' }}>
           <TextInput
             style={styles.textInput}
             placeholder="Write a chat"
-            onChangeText={text => this.setState({text})}
+            onChangeText={text => this.setState({ text })}
             value={this.state.text}
           />
           <TouchableHighlight
             onPress={this.sendMessage}
             style={styles.sendButton}
-            underlayColor={themeDarkColor}>
+            underlayColor={themeDarkColor}
+          >
             <Text style={styles.sendButtonText}>Send</Text>
           </TouchableHighlight>
         </View>
