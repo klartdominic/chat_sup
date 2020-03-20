@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
 	<name>android_</name>
 	<comment>Project android_ created by Buildship.</comment>
-=======
-	<name>chat_support2</name>
-	<comment>Project android created by Buildship.</comment>
->>>>>>> 143a996cf3e46767a88258e47297f8812250956e
 	<projects>
 	</projects>
 	<buildSpec>

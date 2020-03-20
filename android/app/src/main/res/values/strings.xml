@@ -1,11 +1,3 @@
 <resources>
-<<<<<<< HEAD
-    <string name="app_name">SendBirdReactNativeSample</string>
-=======
-<<<<<<< HEAD
-    <string name="app_name">chat_support</string>
-=======
-    <string name="app_name">chat_support2</string>
->>>>>>> 8d430351ff2389a17de6c1775ede628b330d5ac7
->>>>>>> 143a996cf3e46767a88258e47297f8812250956e
+    <string name="app_name">chats</string>
 </resources>

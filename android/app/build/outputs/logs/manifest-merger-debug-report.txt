@@ -5,6 +5,7 @@ INJECTED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:1
 INJECTED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:1:1-26:12
 INJECTED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:1:1-26:12
 MERGED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-gesture-handler] D:\reactNative\chat_sup\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\sanchez.kd\.gradle\caches\transforms-2\files-2.1\8c7833006119d445c128e51565ce8802\AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\sanchez.kd\.gradle\caches\transforms-2\files-2.1\a2550ca538b70d1d64df3568df3b8951\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\sanchez.kd\.gradle\caches\transforms-2\files-2.1\01b8bb89da114f20ca1613c81a761af7\AndroidManifest.xml:17:1-22:12
@@ -46,9 +47,9 @@ INJECTED from D:\reactNative\chat_sup\android\app\src\debug\AndroidManifest.xml:
 INJECTED from D:\reactNative\chat_sup\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 INJECTED from D:\reactNative\chat_sup\android\app\src\debug\AndroidManifest.xml:2:1-8:12
 	package
-		ADDED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:2:3-25
+		ADDED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:2:3-22
 		INJECTED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:2:3-25
+		ADDED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:2:3-22
 		INJECTED from D:\reactNative\chat_sup\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml
@@ -104,7 +105,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\sa
 	android:name
 		ADDED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:7:7-38
 		ADDED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:7:7-38
-activity#com.chat_sup.MainActivity
+activity#com.chats.MainActivity
 ADDED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:13:7-22:18
 	android:label
 		ADDED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml:15:9-41
@@ -132,6 +133,8 @@ uses-sdk
 INJECTED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\reactNative\chat_sup\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-gesture-handler] D:\reactNative\chat_sup\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] D:\reactNative\chat_sup\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\sanchez.kd\.gradle\caches\transforms-2\files-2.1\8c7833006119d445c128e51565ce8802\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\sanchez.kd\.gradle\caches\transforms-2\files-2.1\8c7833006119d445c128e51565ce8802\AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\sanchez.kd\.gradle\caches\transforms-2\files-2.1\a2550ca538b70d1d64df3568df3b8951\AndroidManifest.xml:7:5-9:41

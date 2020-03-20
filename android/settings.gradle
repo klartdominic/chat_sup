@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-rootProject.name = 'SendBirdReactNativeSample'
-include ':react-native-fetch-blob'
-project(':react-native-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fetch-blob/android')
-include ':react-native-image-picker'
-project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
-include ':react-native-push-notification'
-project(':react-native-push-notification').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-push-notification/android')
-
-=======
-<<<<<<< HEAD
-rootProject.name = 'chat_support'
-=======
-rootProject.name = 'chat_support2'
->>>>>>> 8d430351ff2389a17de6c1775ede628b330d5ac7
+rootProject.name = 'chats'
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
->>>>>>> 143a996cf3e46767a88258e47297f8812250956e
 include ':app'

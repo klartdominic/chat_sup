@@ -14,6 +14,7 @@ import SendBird from 'sendbird';
 
 console.disableYellowBox = true;
 
+const SendBird = require('sendbird');
 const sb = new SendBird({ appId: 'E033AE2D-E8CA-480D-AFA2-D17B17287C9D' });
 const myUserId = '1';
 const friendUserId = 'example@gmail.com';
