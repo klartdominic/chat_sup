@@ -9,7 +9,10 @@ import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
+<<<<<<< HEAD
 import com.facebook.react.BuildConfig;
+=======
+>>>>>>> 143a996cf3e46767a88258e47297f8812250956e
 
 public class MainApplication extends Application implements ReactApplication {
 
